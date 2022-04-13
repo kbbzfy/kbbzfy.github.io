@@ -3,7 +3,7 @@
 
 	<head>
 		
-<title>note1-.kbbzfy</title>
+<title>lingo的第一次学习-.kbbzfy</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -244,7 +244,7 @@
         <ul class="tag">
             
         </ul>
-        <h1>note1</h1>
+        <h1>lingo的第一次学习</h1>
         <div class="article-info">
             <div class="article-author">
                 
@@ -257,15 +257,20 @@
                 </svg>
                 
                 <span> <a href="">Andre Zhu</a></span>
-                <p>2022-02-21 22:32:14</p>
+                <p>2022-04-13 19:53:46</p>
             </div>
         </div>
     </div>
 </div>
 <div class="article-content">
     <div id="article" class="content">
-        <p>第一次C语言线上上课，学到了以下知识点</p>
-
+        <h1 id="lingo第一次课程"><a href="#lingo第一次课程" class="headerlink" title="lingo第一次课程"></a>lingo第一次课程</h1><h2 id="专门解决优化的问题"><a href="#专门解决优化的问题" class="headerlink" title="专门解决优化的问题"></a>专门解决优化的问题</h2><p>统计软件：自己学习<br>软件特点：简单模型<br>                方便数据输入，输出<br>（前身lindo）lingo<br>优化模型：1.连续变量，2.整数规划（离散）<br>线性规划，二次规划，非线性</p>
+<h2 id="三-求解过程（不是编程序，是模型的输入）"><a href="#三-求解过程（不是编程序，是模型的输入）" class="headerlink" title="三.求解过程（不是编程序，是模型的输入）"></a>三.求解过程（不是编程序，是模型的输入）</h2><p>1.确定常数2.识别类型（预处理）<br>   ||<br>   V<br>分支界定管理程序<br>   ||<br>   V<br>（非）线性优化求解程序</p>
+<h2 id="四-注意"><a href="#四-注意" class="headerlink" title="四.注意"></a>四.注意</h2><p>1.一边写代码一边执行</p>
+<h3 id="例1："><a href="#例1：" class="headerlink" title="例1："></a>例1：</h3><p>求解LP（线性问题）<br>min f(x)&#x3D;2x1+3x2<br>s.t. （约束条件）<br>x1+x2&gt;&#x3D;350<br>x1&gt;&#x3D;100<br>2x1+x2&lt;&#x3D;600<br>x1,x2&gt;&#x3D;0<br>lingo代码：<br>min&#x3D;<br>2<em>x1+3</em>x2;   &#x2F;&#x2F;非法变量名，<em>不能省掉<br>x1+x2&gt;&#x3D;350;  &#x2F;&#x2F;一定要有分号;<br>x1&gt;&#x3D;100;<br>2</em>x1+x2&lt;&#x3D;600;  &#x2F;&#x2F;实际问题默认非负的，不用输入<br>三要素：a.未知量b.目标c.约束<br>变量名：字母先行+数字&#x2F;字母</p>
+<h3 id="例2-求IQP"><a href="#例2-求IQP" class="headerlink" title="例2.求IQP"></a>例2.求IQP</h3><p>max f(x)&#x3D;98x1+277x2-x1^2-0.3x1x2-2x2^2<br>s.t.</p>
+<p>代码:<br>max&#x3D;…;<br>@gin(x1);@gin(x2);  &#x2F;&#x2F;内部函数，用来限制变量为整数</p>
+<h3 id="例3-分配煤矿"><a href="#例3-分配煤矿" class="headerlink" title="例3.分配煤矿"></a>例3.分配煤矿</h3>
     </div>
 </div>
 <style>
@@ -296,10 +301,10 @@
     
 
     
-    <a href="/2022/02/10/test/">
+    <a href="/2022/02/10/hello-world/">
         <div class="next">
             <span>下一篇</span>
-            <p>测试完成</p>
+            <p>我终于建好自己的网站了</p>
         </div>
     </a>
     
